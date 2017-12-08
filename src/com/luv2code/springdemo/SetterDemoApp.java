@@ -17,6 +17,9 @@ public class SetterDemoApp {
 		
 		System.out.println(cricketCoach.getDailyFortune());
 		
+		System.out.println(cricketCoach.getEmailAddress());
+		System.out.println(cricketCoach.getTeam());
+		
 		// close the context
 		context.close();
 	}

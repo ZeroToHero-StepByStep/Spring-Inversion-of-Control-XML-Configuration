@@ -9,6 +9,15 @@ public class CricketCoach implements Coach {
 	public CricketCoach() {
 		System.out.println("CricketCoach: inside no-arg constructor") ;
 	}
+	
+
+	// our setter method
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+		System.out.println("CricketCoach: inside setter method - setFortuneService") ;
+	}
+
+
 	@Override
 	public String getDailyWorkout() {
 		// TODO Auto-generated method stub
